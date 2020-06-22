@@ -1,0 +1,199 @@
+/*
+*
+*   Theme
+*   #brand #color #custom #skin #fonts #theme
+* 
+*/
+
+/* #definisci il colore di link */
+.l-content-container a {
+    color:#F04926;
+}
+/* #header della pagina */
+
+.masthead {
+    background: url(../../img/layout/banner.png) no-repeat 290px 2px #fff;
+}
+.masthead_top {
+    padding:0px;
+}
+.masthead_hamburger,
+.masthead_hamburger:hover,
+.masthead_hamburger:focus {
+  	 color:#58595B;
+}
+
+@media screen and (max-width: 800px) {
+   .masthead {
+       background: #fff;
+   }
+   
+   .masthead_logo img {
+	height:80px;
+}
+}
+
+@media and (max-width: 1024px) {
+    .masthead {
+        background: url(../../img/layout/banner.png) no-repeat 290px 2px #fff;
+    }
+
+}
+
+
+
+body.secondaryMenuBottom .masthead {
+    border-color:#CECECE;
+}
+
+
+/* menu non in pagina */
+
+.masthead_menu_body > ul > li.masthead_menu_body_comunita {
+    border-color: #9A332C;
+}
+
+.masthead_menu_body > ul > li {
+    border-color: #F04926;
+}
+
+/* menu in pagina */
+
+
+body.js-menuInPagina .masthead_menu_lang a.is-active {
+    background: #F04926;
+}
+
+body.js-menuInPagina .masthead_menu_body > ul > li.masthead_menu_body_comunita {
+    border-color: #9A332C;
+}
+
+body.js-menuInPagina .masthead_menu_body > ul > li {
+    border-color: #F04926;
+}
+
+/* #page title */
+
+.pagetitle_title:after {
+    background:#F04926;
+}
+
+/* #secondary menu */ 
+
+
+.secondary-menu {
+    background: #DADADA;
+}
+.secondary-menu a{
+    color: #282828;
+}
+
+/*#footer */ 
+
+.footer {
+    background:#F8F8F5;
+    text-align:right;
+}
+
+body.secondaryMenuTop .footer {
+    border-color: #D9D9D9;
+}
+
+
+
+
+/* ////////////STILI RIPORTATI DA CUSTOM ///////////// */
+#esse3 .record {
+    border-top: 5px solid #CECECE;
+}
+
+
+/* ----Mappa-----*/
+
+#mappa {
+    background-image: url(../../img/personalizzazione/schema-home.png);
+  	width: 491px;
+  	color: inherit;
+    font-size:12px;
+}
+
+#esse3 a.mappa-link:link, #esse3 a.mappa-link:visited {
+    color:#E53D18;
+    font-weight: bolder;
+    padding: 2px 0;
+}
+
+
+#blu-link {
+    margin-top: -10px;
+}
+
+#green-link {
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: left;
+    width: 100px;
+}
+
+#mv1-link {
+    left: -105px;
+    margin-left: 0;
+    margin-top: 0;
+    position: relative;
+    text-align: center;
+    top: -5px;
+    width: 120px;
+}
+#mo1-link {
+    margin-left: -70px;
+}
+#mv2-link {
+    margin-left: -68px;
+    margin-top: 3px;
+    width:auto;
+}
+#mo2-link {
+    left: 15px;
+    position: relative;
+}
+
+#grey-link {
+    top: 10px;
+}
+
+ /* ----end Mappa-----*/
+
+#esse3 #navigation-list {
+	background-color: #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+	width: 100%;
+	border: none;
+}
+
+#esse3 #navigation-list ul li a:link, #esse3 #navigation-list ul li a:visited {
+	color:#000;
+	background-color:#ffffff;
+	padding:3px 5px 3px 18px;
+ 	background-color: #F8F8F5;
+}
+#esse3 #navigation-list ul li a:hover {
+	background-color: #DCDCDC;
+	color: #000000;
+}
+
+
+ /* ----button Pago PA-----*/ 
+#esse3 #btnAvvisoPagoPA {
+    border: 1px solid #b60000;
+    background-color: #b60000;
+    color: #fff!important;
+    margin-right: 2px;
+    margin-left: 2px;
+    padding: 6px 8px;
+
+}
+
+#esse3 #btnAvvisoPagoPA:hover {
+    background-color: #9B0000;
+}
