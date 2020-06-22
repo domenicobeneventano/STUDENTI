@@ -1,0 +1,250 @@
+/*stili integrati x cornice unica*/
+.titolopagina {
+    color: #68696B;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1.3em;
+    margin: 14px 0 0 0;
+    padding: 0 0 0 0px;
+}
+
+.lastAccessData {
+	color: #44494A;
+	font-weight: bold;
+	line-height: 1em;
+	margin: 10px 0 0px 0px;
+	padding: 0 0 0 0;
+	width: 100%;
+	border: none;
+}
+
+.breadcrumb {
+    margin: 0 0 0 0;
+    padding: 0 60px 0 0;
+    text-align: left;	
+}
+
+.breadcrumb a{
+    background-color: transparent;
+	color: #E53D18;
+	border-bottom: 1px dotted #E74425;
+	text-decoration: none;
+}
+/*
+template legenda
+*/
+.legenda1 {
+	background-color: #F3F7DB;
+	padding: 2px 5px;
+	}
+
+.legenda2 {
+	background-color: #FAD2AC;
+	padding: 2px 5px;
+	}
+
+.legenda3 {
+	background-color: #DBDBDB;
+	padding: 2px 5px;
+	}
+
+/*
+EVENTO ROLLOVER
+*/
+#overmouseover {background-color : #DEDEDE;}
+/*
+MESSAGGIO DI ERRORE
+*/
+.error {
+	color: #FF0000;
+}
+/*
+template link form
+*/
+.tplBottomHelp {
+	font-style: italic;
+	background-color : #ffffff;
+}
+/*
+template link form
+*/
+.tplLinkForm {
+    background-color: #FFFFFF;
+    border: 0px none #FFFFFF;
+    color: #E53D18;
+    text-align: left;
+    cursor: pointer;
+    font-family: Trebuchet MS,Arial,Helvetica,sans-serif;
+     
+}
+.tplLinkForm:hover {
+    color: #E53D18;
+	text-decoration:underline;
+}
+
+/*
+template HEADER
+*/
+.tplHeader {
+	padding: 5px;
+	}
+/*
+template legenda
+*/
+.tplLegenda {
+	background-color : #ffffff;
+	}
+/*
+template message
+*/
+.tplMessage {
+	background-color : #ffffff;
+	padding: 5px;
+	
+	}
+/*per Estensione testo IE*/
+table td.tplMessage {
+	 width: 100%\9;
+	}
+/*
+template start wizard
+*/
+.tplStartWizard {
+	background-color : #ffffff;
+	}
+/*
+template master form
+*/
+.tplMasterForm {
+	background-color : #ffffff;
+	}
+th.tplMasterForm {
+    background-color: #FFFFFF;
+    line-height: 20px;
+    padding-left: 5px;
+}
+/*
+template form
+*/
+.tplForm {
+	background-color : #ffffff;
+	}
+th.tplForm {
+	text-align: right;
+	padding-right: 3px;
+	}
+INPUT.tplForm, select.tplForm {
+	background-color : #ffffff;
+	text-align: left;
+}
+/*
+template form note
+*/
+.tplFormNote {
+	font-size: 11px;
+	background-color : #ffffff;
+	}
+/*
+template form submit
+*/
+INPUT.tplFormSubmit, INPUT.tplStartWizard{
+	border: solid 1px #999;
+	line-height : 15px;
+	background-color : #cccccc;
+	cursor: inherit;
+	margin: 10px;
+	padding: 4px 5px;
+	font-family: inherit;
+	
+}
+ a.tplFormSubmit {
+	border: solid 1px #999;
+	color: #333333;
+	line-height: 15px;
+	background-color : #cccccc;
+	padding: 4px 5px;;
+	text-decoration: none;
+	margin: 10px;
+}
+TD.tplFormSubmit {
+	text-align: center;
+}
+/*
+
+
+
+template lista
+*/
+.tplLista {
+	background-color : #ffffff;
+}
+/*
+template titolo
+*/
+#titolo,.tplTitolo {
+	color: #000;
+	background-color: #EFEFEF;
+	padding: 0px 5px;
+}
+td.content table tr td table {
+ width: 100%;
+	}
+
+/*
+template master
+*/
+TH.tplMaster {
+	padding-right: 3px;
+	text-align: right;
+}
+.tplMaster {
+	border-collapse: collapse;
+	padding: 2px;
+	text-align: left;
+	margin: 0px;
+}
+/*
+template detail
+*/
+.detail_table {
+	border-collapse: collapse;
+	line-height: 18px;
+}
+
+
+table.detail_table {
+	border: 1px solid #ccc;
+}
+
+td.cell_evidence {
+	background-color : #eeeeee;
+}
+TD.special, TD.detail_table_nested , td.detail_table, th.detail_table, table.detail_table, td.detail_table_buttom {
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+TD.detail_table_nested {
+	border: 1px dotted #929292;
+}
+
+TD.special {
+	border:1px dotted #929292;
+}
+th.detail_table {
+    background-color: #F8F8F5;
+    border-left: 1px dotted #929292;
+ 	font-weight: bold;
+    margin: 0;
+    padding: 10px 5px 5px;
+    text-align: left;
+}
+
+td.detail_table_middle,td.detail_table {
+	border:1px dotted #929292;
+	line-height: 18px;
+	padding:5px;
+}
+td[id^="tdMediumSelect_"] select {
+	width: 95px;
+}
